@@ -1,0 +1,161 @@
+body {
+    grid-template-rows: [hd-start] 5rem [hd-end main-start] auto [main-end ft-start] fit-content(8rem) [ft-end];
+    grid-template-columns: auto auto;
+    grid-template-areas: "header header"
+                         "side main"
+                         "footer footer";
+    min-height: 100vh;
+}
+
+.backdrop {
+    position: fixed;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 100;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+.toggle-button {
+    width: 3rem;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding-top: 0;
+    padding-bottom: 0;
+    vertical-align: middle;
+    display: none;
+}
+
+.toggle-button__bar {
+    width: 100%;
+    height: 0.2rem;
+    background: #4c2db3;
+    display: block;
+    margin: 0.6rem 0;
+}
+
+.mobile-side-nav {
+    display: none;
+    position: fixed;
+    z-index: 101;
+    top: 0;
+    left: 0;
+    background: white;
+    width: 80%;
+    height: 100vh;
+    
+}
+
+.side-nav {
+    grid-area: side;
+}
+
+.nav-links {
+    align-self: center;
+    list-style: none;
+    position: sticky;
+    top:30vh;
+    font-size: 2rem;
+}
+
+.mobile-side-nav .nav-links {
+    position: relative;
+}
+
+.nav-link a {
+    text-decoration: none;
+    color: #4c2db3;
+}
+
+.nav-link a:hover,
+.nav-link a:active {
+    color: white;
+}
+
+.main-info {
+    grid-area: main;
+    margin-right: 5rem;
+}
+
+.main-info__section {
+    display: flex;
+    margin: 2rem auto;
+    max-width: 1000px;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.section_title {
+    text-shadow: 5px 5px 2px rgb(231, 54, 128);
+    margin: 0
+}
+
+.section__image-container {
+    max-width: 40rem;
+    width: 50%;
+    box-shadow: 5px 5px 3px 3px rgba(0, 0, 0, 0.3);
+}
+
+.section__image {
+    width: 100%;
+    height: auto;
+    vertical-align: top;
+}
+
+.section_text {
+    margin: 1rem 2rem;
+    width: 40%;
+}
+
+#edu .section__image-container {
+    order: -1;
+}
+
+#hobbies .section_text{
+    width: 100%;
+}
+
+#hobbies .section__image-container,
+#hobbies > p {
+    display: none;
+}
+
+.hobbies_list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.hobby_item {
+    font-family: inherit;
+}
+
+.open {
+    display: block;
+}
+
+@media (max-width: 65rem) {
+    .side-nav {
+        display: none;
+    }
+
+    .toggle-button {
+        display: inline;
+    }
+
+    .main-info__section {
+        flex-direction: column;
+    }
+
+    .section__image-container  {
+        width: 100%;
+    }
+
+    .section_text {
+        width: 100%;
+    }
+}

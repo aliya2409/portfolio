@@ -1,0 +1,26 @@
+[
+    {
+        "id": "bio",
+        "title": "Biography",
+        "image": "img058.jpg",
+        "text": "My name is Aliya Altynbekova. I grew up in Karaganda city in Kazakhstan with my family of four. I enjoy listening to music and taking walks whenever I'm not glued to my computer. In my childhood a day couldn't pass without a good old siblings fight over the computer. Well, I'd lose most of the times and end up watching my brother playing. We've grown over it but still share a lot of interests and coding is one of them."
+    },
+    {
+        "id": "edu",
+        "title": "Education",
+        "image": "edu.jpg",
+        "text": "I've graduated from the Moscow State Univercity with a bachelor degree in Economics. Why did I choose this faculty? Well, I think I was too scared to challenge myself in computer science. At that time it was known as a men's field, therefore my family didn't support this option.However I don't regret anything because as I was studing economic models, theory of probability and mathematical statistics in the university IT sphere kept developing too. Now IT's progress is supported by a large community consisting of different specialists from different countries. And I have gained the needed confidence and courage to join it."
+    },
+    {
+        "id": "goals",
+        "title": "Goals",
+        "image": "epam.jpg",
+        "text": "My primary goal is to become an awesome web-developer. And here what I think makes one. First of all, you need to be a good person: understanding, respectful and willing to help. Such spirit creates an environment where anyone in trouble can easily ask for help or advice. I remember my school teacher saying there's no shame in not knowing; the shame lies in not finding out. This popular proverb touches another important side of a good developer: seeking, searching and always learning. It's not a secret that technologies and developing tools are constantly improving, new programming languages and frameworks are coming out each year. To survive in this strong information flow a good developer keeps theyself up to date."
+    },
+    {
+        "id": "hobbies",
+        "title": "Hobbies",
+        "image": "",
+        "text": "<ul class='hobbies_list'> <li class='hobby_item'> <h3 class='hobby_item_name'>PC gaming</h3> <p class='hobby_item_text'>I'm not a hardcore player who plays on the highest difficulty and tries to complete all achievements. I play for fun, for charachters and stories. And games allow a player to dive right into the stories they tell and to become a part of this worlds. Online games provide a place to play with other users, find friends and work as a team. The only online game I play is Overwatch. It's a colorful team-based shooter starring a diverse cast of powerful heroes that play one of three roles: tank, damage or support. I like to play all heroes but I'm especially good at supports. Although playing as one is tense and nerve-wrecking most of the time in the end it feels nice becoming the backbone of my team’s survival and victory. If you ever want to play with me feel free to add me. My battletag: #Alia21128 :) </p> </li> <li class='hobby_item'> <h3 class='hobby_item_name'>Series</h3> <p class='hobby_item_text'>Everybody enjoys watching series and I'm not an exclusion. The question is what series you watch. As for me, I love drama, mystery, psychology, thriller and crime. My favorites are: Hannibal, Breaking Bad, True Detective, Black Mirror, Stranger Things, Downton Abbey, Big Little Lies, American Crime Story, Versailles...and so on. Whenever I get tired of all this mysteries and intrigues I always have my favorite comedy series of all times - Scrubs to light up my mood and dozen of animated series starting with Avatar: The Last Airbender, Life with Louie, SpongeBob SquarePants, Adventure Time, Rick and Morty...etc. </p> </li> <li class='hobby_item'> <h3 class='hobby_item_name'>Books</h3> <p class='hobby_item_text'>Reading book has become one of my favorite activities long time ago. I've always been a dreamer, so I take pleasure in discovering fantasy worlds. I really enjoy different countries' myths and legends, especially Greek and Japanese, with their own vision of the world. But what amazes me even more is the world created by one man, John Ronald Reuel Tolkien. His tales, poems, fictional histories, invented languages, and literary essays have formed a legendarium that touches the hearts of many people. In my list of favorites you may also find G.R.R. Martin, A. Sapkowski, J.K. Rowling, C.S. Lewis and others. </p> </li> </ul>"
+    }
+]

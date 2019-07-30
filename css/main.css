@@ -1,0 +1,135 @@
+.intro h1 {
+    color: rgb(253, 253, 253);
+    margin: 1rem;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-shadow: 1px 1px 2px rgb(85, 85, 85);
+}
+
+.photo-container {
+    background: white url('me.jpg') center/cover no-repeat border-box;
+    height: 13rem;
+    width: 13rem;
+    border-radius: 50%;
+    box-shadow: 5px 5px 3px 3px rgba(31, 31, 31, 0.5);
+}
+
+.decription {
+    width: 80%;
+    margin: auto;
+    min-width: 300px;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.courses-review {
+    padding-top: 5rem;
+}
+
+.courses-review > h1{
+    text-align: center;
+}
+
+.courses {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.course {
+    background: linear-gradient(to top, rgba(44, 215, 221, 0.6) 30%, rgba(255,255,255,0.7));
+    width: 100%;
+    min-width: 210px;
+    margin: 0.5rem;
+}
+
+.course__image-container {
+    background: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+.course__image-container img {
+    height: 200px;
+}
+
+.course__info {
+    padding: 2rem;
+}
+
+.course__info a {
+    text-decoration: none;
+    color: #2530c8;
+}
+
+.course__info a:hover,
+.course__info a:active {
+    color: white;
+}
+
+.course__name {
+    font-weight: bold;
+    margin: 0;
+    color: #2530c8;
+}
+
+@media (min-width: 40rem){
+    .course {
+        background: linear-gradient(to top left, rgba(39, 185, 190, 0.6) 20%, rgba(255,255,255,0.7));
+        margin: 1rem auto;
+        width: 90%;
+        box-shadow:  5px 5px 5px rgba(31, 31, 31, 0.5);
+        border: none;
+    }
+
+    .course__image-container {
+        float: left;
+    }
+
+    .course__image-container {
+        max-width: 300px;
+        background: none;
+        margin: 1rem;
+    }
+}
+
+@media (min-width: 70rem) {
+    .photo-container {
+        height: 20rem;
+        width: 20rem;
+    }
+
+    .course {
+        background: linear-gradient(to top left, rgba(39, 185, 190, 0.6) 20%, rgba(255,255,255,0.7));
+        margin: 1rem auto;
+        width: 80%;
+        max-width: 70rem;
+        box-shadow:  5px 5px 5px rgba(31, 31, 31, 0.5);
+        border: none;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .course__image-container {
+        max-width: 300px;
+        background: none;
+        margin: 1rem;
+    }
+
+    .course__image-container img {
+        height: auto;
+        width: 13rem;
+        max-height: 300px;
+    }
+}
+
